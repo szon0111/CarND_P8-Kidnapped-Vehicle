@@ -81,6 +81,7 @@ void ParticleFilter::prediction(double delta_t, double std_pos[], double velocit
 }
 
 void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::vector<LandmarkObs>& observations) {
+
 	/**
 	Implemented in updateWeights function
 	**/
@@ -102,6 +103,7 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 	// observations[i].id = association;
 	// }
 	// cout << "data association complete" << endl;
+
 }
 
 void ParticleFilter::updateWeights(double sensor_range, double std_landmark[], 
@@ -162,7 +164,6 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 	}
 
 	cout << "weight update complete" << endl;
-
 }
 
 void ParticleFilter::resample() {
@@ -177,7 +178,6 @@ void ParticleFilter::resample() {
 	particles = resampled_particles;
 
 	cout << "resampling complete" << endl;
-
 
 }
 
