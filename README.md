@@ -19,12 +19,18 @@ Project Deliverables
 
 Results
 ---
+View the **[video](https://youtu.be/SagWBrtoyvw)** on Youtube
 
 x_error: 0.112
 y_error: 0.109
 yaw_error: 0.004
 
 ---
+
+## How to run the simulator
+* Download the simulator(link below) and open it. In the main menu screen select Project 3: Kidnapped Vehicle
+* Run the executable ./particle_filter
+* Once the scene is loaded click the START button to observe how the car drives and observes landmarks
 
 ## Dependencies
 
